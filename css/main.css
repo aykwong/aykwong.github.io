@@ -1950,12 +1950,11 @@ nav a:hover {
   position: relative;
 }
 
-/* .logo {
-  font-size: 35px;
-  font-weight: bold;
-  color: black;
-  border: 6px solid #7199c2;
-} */
+#logo {
+  height: 100%;
+  width: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
 
 @media (max-width: 767px) {
   .body-wrap {
@@ -1986,7 +1985,7 @@ nav a:hover {
 }
 
 .section-gap {
-  padding: 60px 0 40px;
+  padding: 100px 0 80px;
 }
 
 .primary-btn {
@@ -2054,7 +2053,7 @@ nav a:hover {
 }
 
 .banner-area {
-  background: #F2F7FB;
+  background: #ffffff;
 }
 
 @media (max-width: 767px) {
@@ -2151,7 +2150,7 @@ nav a:hover {
 }
 
 .studio-area .overlay-bg {
-  background: linear-gradient(to top, #f2f7fb, #d0dfec, #90b0d0, #d0dfec, #f2f7fb);
+  background: #90b0d0;
 }
 
 .studio-area .studio-thumb {
@@ -2218,7 +2217,7 @@ nav a:hover {
 
 .skills-area {
   align-items: center;
-  background: #F2F7FB;
+  background: #ffffff;
   min-height: 100%; /* Fallback for browsers do NOT support vh unit */
   justify-content: center;
   display: flex;
@@ -2230,10 +2229,7 @@ nav a:hover {
   font-weight: bold;
   line-height: 1.15em;
   padding-bottom: 10px;
-  background: linear-gradient(to right bottom, #7199c2, #90b0d0, #b0c8de, #d0dfec, #f2f7fb);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #7199c2;
 }
 
 .skills-area .single-skills {
@@ -2333,7 +2329,7 @@ nav a:hover {
 
 .project-area {
   align-items: center;
-  background: #F2F7FB;
+  background: #ffffff;
   min-height: 100%; /* Fallback for browsers do NOT support vh unit */
   justify-content: center;
   display: flex;
@@ -2345,10 +2341,7 @@ nav a:hover {
   font-weight: bold;
   line-height: 1.15em;
   padding-bottom: 10px;
-  background: linear-gradient(to right bottom, #7199c2, #90b0d0, #b0c8de, #d0dfec, #f2f7fb);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #90b0d0;
 }
 
 .project-area img {
@@ -2358,38 +2351,6 @@ nav a:hover {
 .project-area .item {
   margin-top: 40px;
   margin-bottom: 80px;
-}
-
-@media (max-width: 1199px) {
-  .active-bottle-carousel .carousel-content {
-    padding-right: 30px;
-  }
-}
-
-@media (max-width: 767px) {
-  .active-bottle-carousel .carousel-content {
-    margin-top: 50px;
-    padding-right: 0;
-  }
-}
-
-.active-bottle-carousel .owl-controls {
-  position: absolute;
-  top: 50%;
-  right: 50px;
-  transform: translateY(-50%);
-}
-
-@media (max-width: 1199px) {
-  .active-bottle-carousel .owl-controls {
-    right: 0;
-  }
-}
-
-@media (max-width: 767px) {
-  .active-bottle-carousel .owl-controls {
-    display: none;
-  }
 }
 
 .active-bottle-carousel .owl-controls .owl-dots {
@@ -2411,82 +2372,13 @@ nav a:hover {
   align-items: end;
 }
 
-.active-bottle-carousel .owl-controls .owl-dots .owl-dot {
-  width: 30px;
-  height: 3px;
-  background: rgba(255, 255, 255, 0.3);
-  margin-bottom: 20px;
-}
-
-.active-bottle-carousel .owl-controls .owl-dots .owl-dot:last-child {
-  margin-bottom: 0;
-}
-
-.active-bottle-carousel .owl-controls .owl-dots .owl-dot.active {
-  background: white;
-  width: 50px;
-}
-
 .contact-area {
   background: linear-gradient(to right, #7199c2, #90b0d0, #b0c8de, #90b0d0, #7199c2);
   padding: 60px 0 0px 0;
 }
 
 .contact-area .contact-top img {
-  max-width: 15% !important
-}
-
-.contact-area .submit {
-  background: #F2F7FB;
-}
-
-.contact-area .submit:hover {
-  background: #7199c2;
-}
-
-.subscription-area {
-  padding-bottom: 90px;
-}
-
-.subscription input {
-  width: 100%;
-  line-height: 50px;
-  padding: 0 180px 0 25px;
-  border: none;
-  background: transparent;
-  font-weight: 300;
-  border-radius: 25px;
-  background: #f9f9ff;
-}
-
-.subscription .primary-btn {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 5px;
-  background: #e0003b;
-  color: #fff;
-}
-
-.subscription .primary-btn span {
-  color: #fff;
-}
-
-.subscription .info {
-  position: absolute;
-  top: 60px;
-  left: 50%;
-  transform: translateX(-50%);
-  color: #fff;
-  font-size: 12px;
-}
-
-.subscription .info.valid {
-  color: #fff;
-}
-
-.subscription .info.error {
-  color: #fff;
+  max-width: 13% !important
 }
 
 @media (max-width: 767px) {
@@ -2530,23 +2422,6 @@ nav a:hover {
   color: white;
 }
 
-.instafeed {
-  margin: -5px;
-}
-
-.instafeed li {
-  overflow: hidden;
-  width: 25%;
-}
-
-.instafeed li img {
-  margin: 5px;
-}
-
-.single-footer-widget {
-  margin-bottom: 30px;
-}
-
 .footer-bottom {
   padding-top: 40px;
 }
@@ -2566,12 +2441,6 @@ nav a:hover {
 
 .footer-bottom .footer-text a:hover {
   color: white;
-}
-
-@media (max-width: 767px) {
-  .footer-social {
-    margin-top: 10px;
-  }
 }
 
 .footer-social a {
@@ -2602,28 +2471,6 @@ nav a:hover {
 
 .footer-social a:hover i {
   color: #e0003b;
-}
-
-.about-generic-area {
-  position: relative;
-  background: url(../img/g-bg.jpg) no-repeat center center/cover;
-}
-
-.about-generic-area .overlay-bg {
-  background: rgba(224, 0, 59, 0.8);
-}
-
-.about-generic-area .container {
-  position: relative;
-  z-index: 2;
-}
-
-.about-generic-area .border-top-generic {
-  padding: 100px 15px;
-}
-
-.about-generic-area p {
-  margin-bottom: 30px;
 }
 
 .white-bg {

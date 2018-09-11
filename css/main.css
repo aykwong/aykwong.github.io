@@ -1953,7 +1953,6 @@ nav a:hover {
 #logo {
   height: 100%;
   width: 50px;
-  border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 767px) {

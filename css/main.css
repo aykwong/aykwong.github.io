@@ -2377,7 +2377,8 @@ nav a:hover {
 }
 
 .contact-area .contact-top img {
-  max-width: 13% !important
+  width: 12%;
+  height: auto;
 }
 
 @media (max-width: 767px) {
@@ -2443,12 +2444,7 @@ nav a:hover {
 }
 
 .footer-social a {
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  width: 30px;
-  line-height: 30px;
-  display: inline-block;
-  text-align: center;
-  margin-right: 5px;
+  margin-right: 20px;
 }
 
 .footer-social a i {
@@ -2461,11 +2457,6 @@ nav a:hover {
 
 .footer-social a:last-child {
   margin-right: 0;
-}
-
-.footer-social a:hover {
-  background: #fff;
-  border: 1px solid white;
 }
 
 .footer-social a:hover i {
